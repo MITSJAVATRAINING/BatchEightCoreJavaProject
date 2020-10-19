@@ -1,0 +1,34 @@
+
+public class JavaBasic {
+
+	public static void main(String args[]) {
+		
+		int a = 10; // Primitive Type
+		Integer b = 10;
+		
+		//String name1 = "Shaleen";
+		//String name2 = "Shaleen";
+			String name1 = new String("Shaleen");
+			String name2 = new String("Shaleen");
+		
+		if (name1.equals(name2)) {
+			System.out.println("equals");
+		} else {
+			System.out.println("Not equals");
+		}
+		
+		
+		int[] array1 = {10,20,30,40,50};
+		
+		System.out.println("Value stored at 2nd index " + array1[2]);
+		
+		int[] array2 = new int[3];
+		array2[0] = 45;
+		array2[1] = 46;
+		array2[2] = 50;
+		
+		for (int i= 0;i<array2.length;i++) {
+			System.out.println("Value stored at index " + i + " is " + array2[i] );
+		}
+	}
+}
